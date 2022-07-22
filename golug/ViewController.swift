@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     func isValidEmail(email: String) -> Bool {
             if email == "" {
-                let alert = UIAlertController(title: "Alert", message: "Please enter email id", preferredStyle: UIAlertController.Style.alert)
+                let alert = UIAlertController(title: "Alert", message: "Please enter your email id", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 return false
